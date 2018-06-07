@@ -1,8 +1,8 @@
 <div class = "container">
 
-	<div class="row justify-content-center">
+	<div class="row justify-content-center mt-5">
 		<div class="col-12 col-md-10">
-			<h1>Thanos Simulator</h1>
+			<h1 class="text-center">Thanos Simulator</h1>
 		</div>
 	</div>
 
@@ -19,7 +19,11 @@
 		<div class="col-12 col-md-6">
 			<ul>
 				{{#each avengers}}
-				{{name}}
+				{{#unless alive}}
+				<li>
+				<p>{{name}} doesn't feel so good...</p>
+			    </li>
+			    {{/unless}}
 				{{/each}}
 			</ul>
 		</div>
@@ -27,7 +31,7 @@
 
 	<div class="row justify-content-center">
 		<div class="col-12 col-md-10">
-			<h1>Which Avenger is about to not feel so good?</h1>
+			<h3 class="text-center">Which Avenger is about to not feel so good?</h3>
 			<form class="add-avenger">
 			  <div class="form-group">
     			<input type="text" class="form-control" id="avengerName" placeholder="I am Groot">
