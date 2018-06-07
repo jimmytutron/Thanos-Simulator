@@ -1,0 +1,40 @@
+<div class = "container">
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-10">
+			<h1>Thanos Simulator</h1>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-6">
+			<ul>
+				{{#each avengers}}
+				{{#if alive}}
+				{{> avengers/dontfeelsogood alive=false}}
+				{{/if}}
+				{{/each}}
+			</ul>
+		</div>
+		<div class="col-12 col-md-6">
+			<ul>
+				{{#each avengers}}
+				{{name}}
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-md-10">
+			<h1>Which Avenger is about to not feel so good?</h1>
+			<form class="add-avenger">
+			  <div class="form-group">
+    			<input type="text" class="form-control" id="avengerName" placeholder="I am Groot">
+  			  </div>
+  			  <button class="btn btn-danger" type="submit">Assemble</button>
+			</form>
+		</div>
+	</div>
+
+</div>
