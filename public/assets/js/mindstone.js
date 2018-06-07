@@ -1,5 +1,7 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
+
+
   $(".snapped").on("click", function(event) {
     var id = $(this).data("id");
     var status = $(this).data("alive");
@@ -24,9 +26,14 @@ $(function() {
   $(".add-avenger").on("submit", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
+    var userInput = $("#avengerName").val().trim();
+
+    if(userInput === ""){
+      $("#invalid-feedback").html(`<p class=" text-danger text-right">Please enter a name...<p>`);
+    }else {
 
     var newAvenger = {
-      name: $("#avengerName").val().trim(),
+      name: userInput,
       alive: 1
     };
 
@@ -39,8 +46,9 @@ $(function() {
         console.log("Assembled new Avenger");
         // Reload the page to get the updated list
         location.reload();
-      }
-    );
+      });
+  }
+
   });
 
 });
