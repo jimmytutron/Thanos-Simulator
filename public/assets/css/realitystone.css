@@ -1,4 +1,12 @@
-.snapped {
+/*.snapped {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.btn {
+	width: 300px;
+	overflow-wrap: inherit;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
