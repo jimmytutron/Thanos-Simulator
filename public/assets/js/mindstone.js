@@ -17,7 +17,7 @@ $(function() {
       function() {
         console.log("This avenger is now", status);
         // Reload the page to get the updated list
-        setTimeout(window.location.reload.bind(window.location), 1800);
+        setTimeout(window.location.reload.bind(window.location), 2200);
       }
     );
   });
