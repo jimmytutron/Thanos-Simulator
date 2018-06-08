@@ -22,23 +22,12 @@ body{
 	margin-top: -100px;
 }
 
-@media(max-width: 991px){
-	.hero{
-		margin-top: -75px;
-	}
-}
-
-@media(max-width: 767px){
-		.hero{
-		margin-top: -55px;
-	}
-}
-
 .assemble{
 	background-image: url("../imgs/transparent-box.png");
 	background-repeat: repeat-x;
 	border-radius: 30px;
 	padding: 20px;
+	margin: 10px;
 
 }
 
@@ -150,4 +139,27 @@ li {
 
 #avengerName::placeholder {
 	color: #fff;
+}
+
+@media(max-width: 991px){
+	.hero{
+		margin-top: -75px;
+	}
+}
+
+@media(max-width: 767px){
+		.hero{
+		margin-top: -55px;
+	}
+	.thanos{
+	left: 20%;
+
+}
+}
+
+@media(max-width:580px){
+	.thanos{
+	top: -80px;
+	left: -90px;
+}
 }
