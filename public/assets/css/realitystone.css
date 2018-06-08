@@ -1,6 +1,45 @@
 body{
 	background-color: #2a2a2a;
+	background: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1f8f8a17194030f5bf45f3e14fee725e&auto=format&fit=crop&w=3827&q=80") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.thanos{
+	position: absolute;
+	top: -2%;
+	left: 40%;
+	z-index: -5;
+
+}
+
+.hero{
+	margin-top: -100px;
+}
+
+@media(max-width: 991px){
+	.hero{
+		margin-top: -75px;
+	}
+}
+
+@media(max-width: 767px){
+		.hero{
+		margin-top: -55px;
+	}
+}
+
+.assemble{
+	background-image: url("../imgs/transparent-box.png");
+	background-repeat: repeat-x;
+	border-radius: 30px;
+	padding: 20px;
+
 }
 
 .btn{
@@ -65,12 +104,14 @@ body{
 	border-radius: 5px;
 	border-radius: var(--radius-button);
 	background: var(--color-button-bg);
+	background-image: url("../imgs/buttonbg.png");
 	color: var(--color-button-text);
 	border: 0;
 	border: var(--border-button);
 	margin: 0;
 	padding: 1rem 1rem;
 	padding: var(--button-padding);
+	text-transform: uppercase;
 }
 
 .particles-button:focus {
@@ -82,9 +123,9 @@ body{
 }
 
 .theme-1 {
-	--color-action: #ffffff;
-	--color-button-bg: #ffffff;
-	--color-button-text: #000;
+	--color-action: #302e2b;
+	--color-button-bg: #302e2b;
+	--color-button-text: #fff;
 	--button-padding: 1rem 1rem;
 	--radius-button: 5px;
 	--border-button: 0;
@@ -92,4 +133,21 @@ body{
 
 li {
     list-style-type: none;
+}
+
+#avengerName {
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	}
+
+#avengerName:focus {
+	outline: 0;
+}
+
+#avengerName::placeholder {
+	color: #fff;
 }

@@ -3,7 +3,7 @@
     const arrOpts = [
         {},
         {
-            type: 'triangle',
+            type: 'circle',
             easing: 'easeOutQuart',
             size: 6,
             particlesAmountCoefficient: 4,
@@ -13,7 +13,6 @@
             type: 'rectangle',
             duration: 500,
             easing: 'easeOutQuad',
-            color: '#091388',
             direction: 'top',
             size: 8
         },
@@ -21,7 +20,6 @@
             direction: 'right',
             size: 4,
             speed: 1,
-            color: '#e85577',
             particlesAmountCoefficient: 1.5,
             oscillationCoefficient: 1
         },
@@ -50,11 +48,10 @@
             direction: 'right'
         },
         {
-            type: 'triangle',
+            type: 'circle',
             style: 'stroke',
             direction: 'top',
             size: 5,
-            color: 'blue',
             duration: 1400,
             speed: 1.5,
             oscillationCoefficient: 15,
@@ -79,7 +76,6 @@
         },
         {
             style: 'stroke',
-            color: '#1b81ea',
             direction: 'bottom',
             duration: 1200,
             easing: 'easeOutSine',
@@ -87,7 +83,7 @@
             oscillationCoefficient: 5
         },
         {
-            type: 'triangle',
+            type: 'circle',
             easing: 'easeOutSine',
             size: 3,
             duration: 800,
