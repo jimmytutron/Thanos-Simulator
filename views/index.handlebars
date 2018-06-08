@@ -42,7 +42,8 @@
 			<div class="col-12 col-md-8">
 			<form class="add-avenger">
 			  <div class="form-group">
-    			<input type="text" class="form-control" id="avengerName" placeholder="I am Groot">
+    			<input type="text" class="form-control" id="avengerName" placeholder="I am Groot" onfocus="this.placeholder = ''"
+onblur="this.placeholder = 'I am Groot'">
     			<div id="invalid-feedback">
     				&nbsp;
   			  	</div>
