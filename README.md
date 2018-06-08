@@ -31,6 +31,9 @@ Inside your terminal or command prompt, navigate to the location of the cloned r
 npm i
 ```
 
+### MySQL :dolphin:
+In order for the app to render locally, you will need to use the included `schema` and `seeds` files to generate a database in your preferred mySQL IDE. 
+
 ## Snap your Fingers :cyclone:
 
 The deployed version of this app is hosted on heroku [here](https://mysterious-harbor-91238.herokuapp.com/)
@@ -46,13 +49,13 @@ To end the sever connection simply hold down `ctrl + c` inside of your terminal.
 * [Javascript](https://www.javascript.com/) - programming language
 * [Node.js](https://nodejs.org/en/) - javascript runtime
 * [Express.js](https://expressjs.com/) - routing framework
-* [Handlebars]() - semantic templating
+* [Handlebars](http://handlebarsjs.com/) - semantic templating
 
 ### NPM Packages
 * [Express](https://www.npmjs.com/package/express)
-* [Express-Handlebars]
+* [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
 * [body-parser](https://www.npmjs.com/package/body-parser)
-* [mySQL]()
+* [mySQL](https://www.npmjs.com/package/mysql)
 
 ## Author :key:
 * **Jimmy Tu** - [jimmytutron](https://github.com/jimmytutron)
@@ -62,4 +65,4 @@ To end the sever connection simply hold down `ctrl + c` inside of your terminal.
 A bigly thank you to our instructor, Jerome, and the TAs, Amber, Ricky, and Sasha!!  :grimacing:
 A huuuuge thanks to my classmates, espeically Robert, Eric, and Nick for helping me when I was confused.
 
-Marvel... that ending was not cool tbh but Thanos was the best baddie and I'm eagerly awaiting the next Avengers movie. 
+Marvel... that ending was not cool tbh but Thanos was the best baddie and I'm eagerly awaiting the next Avengers movie.
