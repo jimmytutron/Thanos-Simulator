@@ -24,8 +24,8 @@
 				{{#each avengers}}
 				{{#unless alive}}
 				<div class="row justify-content-center my-1">
-	<div class="col-12">
-		<h5 class="text-center">{{name}} doesn't feel so good...</h5>
+	<div class="col-12 disassemble">
+		<h5 class="text-center"><span class="deadman">{{name}}</span> doesn't feel so good...</h5>
 	</div>
 			    </div>
 			    {{/unless}}
@@ -33,18 +33,21 @@
 		</div>
 	</div>
 
-	<div class="row form justify-content-center my-4">
-		<div class="col-12 col-md-6">
+	<div class="row form justify-content-center mt-4">
+		<div class="col-12 col-md-10">
 			<h3 class="text-center">Who's about to not feel so good?</h3>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+			<div class="col-12 col-md-8">
 			<form class="add-avenger">
 			  <div class="form-group">
     			<input type="text" class="form-control" id="avengerName" placeholder="I am Groot">
     			<div id="invalid-feedback">
     				&nbsp;
   			  	</div>
-  			  <button class="btn btn-danger" type="submit">Assemble</button>
-			</form>
-		</div>
-	</div>
+  			  <button class="btn assemble-button" type="submit">Assemble</button>
+			</form>							
+			</div>
 	</div>
 </div>
