@@ -38,7 +38,7 @@ In order for the app to render locally, you will need to use the included `schem
 
 The deployed version of this app is hosted on heroku [here](https://mysterious-harbor-91238.herokuapp.com/)
 
-To view this app locally on your machine type `node server.js` into your terminal to intialize the app. This will set up a local server on your computer. Navigate to the server in your browser by visiting `http://localhost:8888/`
+To view this app locally on your machine type `node server.js` into your terminal to intialize the app. This will set up a local server on your computer. Navigate to the server in your browser by visiting `http://localhost:3030/`
 
 To end the sever connection simply hold down `ctrl + c` inside of your terminal.
 
