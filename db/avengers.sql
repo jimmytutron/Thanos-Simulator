@@ -8,10 +8,12 @@ CREATE TABLE avengers
 );
 INSERT INTO avengers (name)
 VALUES
+("Spiderman"),
 ("Captain America"),
 ("Iron Man"),
 ("Thor"),
-("Spiderman"),
+("Rocket Raccoon"),
+("Gamora"),
 ("Dr. Strange"),
 ("StarLord"),
 ("Black Widow"),
