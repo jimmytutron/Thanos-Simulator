@@ -1,7 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
 
-
   $(".snapped").on("click", function(event) {
     var id = $(this).data("id");
     var status = $(this).data("alive");
@@ -18,7 +17,7 @@ $(function() {
       function() {
         console.log("This avenger is now", status);
         // Reload the page to get the updated list
-        location.reload();
+        setTimeout(window.location.reload.bind(window.location), 1800);
       }
     );
   });
