@@ -45,7 +45,6 @@ To end the sever connection simply hold down `ctrl + c` inside of your terminal.
 ## Built With :crescent_moon:
 * HTML5 & CSS3
 * [Bootstrap](https://getbootstrap.com/) - CSS framework
-* [Boostrap Sliders](http://seiyria.com/bootstrap-slider/) - slider
 * [Javascript](https://www.javascript.com/) - programming language
 * [Node.js](https://nodejs.org/en/) - javascript runtime
 * [Express.js](https://expressjs.com/) - routing framework
@@ -62,6 +61,9 @@ To end the sever connection simply hold down `ctrl + c` inside of your terminal.
 
 
 ## Acknowledgments :pray:
+* [Codrops - Particle Effects for Buttons](https://tympanus.net/codrops/2018/04/25/particle-effects-for-buttons/) - This animation library defs made me feel good.
+* [Hover.css](https://github.com/IanLunn/Hover) - Pulsating buttons!!
+
 A bigly thank you to our instructor, Jerome, and the TAs, Amber, Ricky, and Sasha!!  :grimacing:
 A huuuuge thanks to my classmates, espeically Robert, Eric, and Nick for helping me when I was confused.
 
